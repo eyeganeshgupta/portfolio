@@ -1,3 +1,5 @@
+import DarkLight from "@/components/DarkLight";
+import Theme from "@/components/Theme";
 import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
@@ -11,7 +13,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Theme>
+          <DarkLight />
+          {children}
+        </Theme>
+      </body>
     </html>
   );
 }
