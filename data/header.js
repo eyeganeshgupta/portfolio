@@ -1,5 +1,5 @@
 const data = {
-  profile: "/public/images/profile.jpg",
+  profile: "/images/profile.jpg",
   name: "Ganesh Gupta",
   title: "Full Stack JavaScript & Java Developer",
   address: "Mumbai, India",
