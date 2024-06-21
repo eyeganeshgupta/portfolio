@@ -9,8 +9,9 @@ import HeaderInfo from "./HeaderInfo";
 const Header = () => {
   const { profile, name, title, address, education } = data;
   return (
-    <div className="flex items-center gap-x-8">
-      <div className="w-[150px] h-[150px] relative rounded-full overflow-hidden">
+    <div className="flex flex-wrap md:flex-row flex-col items-center gap-y-9 gap-x-8">
+      <div className="md:w-[150px] md:h-[150px] w-[200px] h-[200px] relative rounded-full overflow-hidden">
+        {/* Profile */}
         <Image
           src={profile}
           alt="profile"
@@ -18,15 +19,19 @@ const Header = () => {
           className="w-full h-full object-cover hover:scale-100 hover:rotate-6 transition-all duration-500"
         />
       </div>
-      <div>
-        <h1 className="text-5xl capitalize text-violet-700 dark:text-white">
+
+      <div className="flex-1">
+        {/* Name */}
+        <h1 className="text-4xl md:text-5xl capitalize text-violet-700 dark:text-white">
           {name}
         </h1>
-        <h3 className="mt-2 text-xl font-bold capitalize dark:text-zinc-400">
+        {/* JobTitle */}
+        <h3 className="mt-2 text-lg md:text-xl font-semibold md:font-bold capitalize dark:text-zinc-400">
           {title}
         </h3>
 
-        <div className="flex items-center gap-x-4 mt-2">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mt-2">
+          {/* Address */}
           <HeaderInfo
             Icon={
               <FaMapMarkerAlt
@@ -37,6 +42,7 @@ const Header = () => {
             info={address}
           />
 
+          {/* Education */}
           <HeaderInfo
             Icon={
               <IoIosSchool
