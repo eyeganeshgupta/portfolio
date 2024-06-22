@@ -9,7 +9,7 @@ import HeaderInfo from "./HeaderInfo";
 const Header = () => {
   const { profile, name, title, address, education } = data;
   return (
-    <div className="flex flex-wrap md:flex-row flex-col items-center gap-y-9 gap-x-8">
+    <header className="flex flex-wrap md:flex-row flex-col items-center gap-y-9 gap-x-8">
       <div className="md:w-[150px] md:h-[150px] w-[200px] h-[200px] relative rounded-full overflow-hidden">
         {/* Profile */}
         <Image
@@ -54,7 +54,7 @@ const Header = () => {
           />
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
