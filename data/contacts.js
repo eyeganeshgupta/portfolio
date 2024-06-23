@@ -5,7 +5,6 @@ const data = [
     label: "github",
     link: "https://github.com/eyeganeshgupta",
   },
-
   {
     id: 2,
     name: "linkedin",
@@ -18,7 +17,6 @@ const data = [
     label: "x",
     link: "https://x.com/emganeshgupta",
   },
-
   {
     id: 4,
     name: "instagram",
