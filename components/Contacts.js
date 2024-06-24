@@ -1,6 +1,5 @@
 import data from "@/data/contacts";
 import Link from "next/link";
-import { BsTwitterX } from "react-icons/bs";
 import {
   FaFacebookSquare,
   FaGithub,
@@ -9,6 +8,7 @@ import {
   FaRegUserCircle,
   FaYoutube,
 } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import Heading from "./Heading";
 
@@ -30,35 +30,26 @@ const Contacts = () => {
               )}
 
               {contact.name === "linkedin" && (
-                <FaLinkedin
-                  size={18}
-                  className="text-[#0a66c2] dark:text-white"
-                />
+                <FaLinkedin size={18} className="text-[#0a66c2]" />
               )}
 
               {contact.name === "x" && (
-                <BsTwitterX size={18} className="text-black dark:text-white" />
+                <FaSquareXTwitter
+                  size={18}
+                  className="text-black dark:text-white"
+                />
               )}
 
               {contact.name === "instagram" && (
-                <FaInstagram
-                  size={18}
-                  className="text-[#c32aa3] dark:text-white"
-                />
+                <FaInstagram size={18} className="text-[#c32aa3]" />
               )}
 
               {contact.name === "facebook" && (
-                <FaFacebookSquare
-                  size={18}
-                  className="text-[#1877f2] dark:text-white"
-                />
+                <FaFacebookSquare size={18} className="text-[#1877f2]" />
               )}
 
               {contact.name === "youtube" && (
-                <FaYoutube
-                  size={18}
-                  className="text-[#ff0000] dark:text-white"
-                />
+                <FaYoutube size={18} className="text-[#ff0000]" />
               )}
 
               {contact.name === "email" && (
