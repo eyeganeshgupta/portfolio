@@ -14,7 +14,7 @@ const data = [
       { id: 3, name: "mongodb", image: "/skills/mongodb.png" },
     ],
     source_code: "https://github.com/eyeganeshgupta/cinema-buff",
-    demo: "",
+    demo: "https://cinemabuff.netlify.app/",
   },
   {
     id: 2,
