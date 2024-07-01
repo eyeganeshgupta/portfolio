@@ -1,14 +1,24 @@
+"use client";
+
 import data from "@/data/projects";
 import Image from "next/image";
+import { useState } from "react";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import Heading from "./Heading";
 import Modal from "./Modal";
 import SectionWrapper from "./SectionWrapper";
 
 const Projects = () => {
+  const [state, setState] = useState(false);
+  const [details, setDetails] = useState(null);
+
+  const toggleModal = () => {
+    setState(!state);
+  };
+
   return (
     <>
-      <Modal />
+      <Modal state={state} details={details} toggleModal={toggleModal} />
       <SectionWrapper>
         <Heading>Projects</Heading>
         {data.map((project) => {
@@ -30,7 +40,13 @@ const Projects = () => {
                   <h2 className="text-lg md:text-xl font-bold text-zinc-700 dark:text-zinc-400 leading-[25px]">
                     {project.title}
                   </h2>
-                  <FaArrowTrendUp className="text-[20px] text-zinc-900 dark:text-white cursor-pointer" />
+                  <FaArrowTrendUp
+                    className="text-[20px] text-zinc-900 dark:text-white cursor-pointer"
+                    onClick={() => {
+                      toggleModal();
+                      setDetails(project);
+                    }}
+                  />
                 </div>
 
                 <p className="text-base font-semibold text-zinc-500 dark:text-zinc-400 mt-2">
