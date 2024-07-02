@@ -13,7 +13,7 @@ const data = [
       { id: 3, name: "node", image: "/skills/node-js.png" },
       { id: 3, name: "mongodb", image: "/skills/mongodb.png" },
     ],
-    source_code: "https://github.com/eyeganeshgupta/cinema-buff",
+    sourceCode: "https://github.com/eyeganeshgupta/cinema-buff",
     demo: "https://cinemabuff.netlify.app/",
   },
   {
@@ -29,7 +29,7 @@ const data = [
       { id: 3, name: "tailwindcss", image: "/skills/tailwind.png" },
       { id: 3, name: "graphql", image: "/skills/graphql.png" },
     ],
-    source_code: "https://github.com/eyeganeshgupta/closet-heaven-ui",
+    sourceCode: "https://github.com/eyeganeshgupta/closet-heaven-ui",
     demo: "https://closet-heaven.netlify.app/",
   },
   {
@@ -45,7 +45,7 @@ const data = [
       { id: 3, name: "tailwindcss", image: "/skills/tailwind.png" },
       { id: 3, name: "graphql", image: "/skills/graphql.png" },
     ],
-    source_code: "https://github.com/eyeganeshgupta/query-burst",
+    sourceCode: "https://github.com/eyeganeshgupta/query-burst",
     demo: "https://query-burst.vercel.app/",
   },
   {
@@ -61,7 +61,7 @@ const data = [
       { id: 3, name: "tailwindcss", image: "/skills/tailwind.png" },
       { id: 3, name: "graphql", image: "/skills/graphql.png" },
     ],
-    source_code: "https://github.com/eyeganeshgupta/continental-hotel",
+    sourceCode: "https://github.com/eyeganeshgupta/continental-hotel",
     demo: "https://continental-hotel-gupta.vercel.app/",
   },
 ];
