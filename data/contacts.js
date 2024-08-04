@@ -15,7 +15,7 @@ const data = [
     id: 3,
     name: "x",
     label: "x",
-    link: "https://x.com/emganeshgupta",
+    link: "https://x.com/eyeganeshgupta",
   },
   {
     id: 4,
