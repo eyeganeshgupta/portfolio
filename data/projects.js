@@ -1,22 +1,43 @@
 const data = [
   {
     id: 1,
-    title: "CinemaBuff",
-    image: "/projects/cinema-buff.png",
+    title: "Echo A Social Media App",
+    image: "/projects/echo.png",
     description:
-      "Cinema-Buff, An ultimate destination for everything related to the world of cinema!",
+      "Echo is a dynamic social media platform designed to connect users through concise and impactful messaging. Echo allows users to share thoughts, ideas, and updates in real-time, fostering a community where content is easily discoverable and widely accessible. With a focus on simplicity and user engagement, Echo is tailored to provide a seamless experience for both casual users and influencers alike.",
     skills: [
-      { id: 1, name: "javascript", image: "/skills/javascript.png" },
+      { id: 1, name: "typescript", image: "/skills/typescript.png" },
       { id: 2, name: "react", image: "/skills/react.png" },
-      { id: 3, name: "sass", image: "/skills/sass.png" },
-      { id: 4, name: "redux", image: "/skills/redux.png" },
-      { id: 5, name: "vite", image: "/skills/vite.png" },
+      { id: 3, name: "next", image: "/skills/next-js.png" },
+      { id: 4, name: "tailwindcss", image: "/skills/tailwind.png" },
+      { id: 5, name: "shadcn", image: "/skills/shadcn-ui.png" },
+      { id: 6, name: "lucia", image: "/skills/lucia.png" },
+      { id: 7, name: "postgresql", image: "/skills/postgresql.png" },
+      { id: 8, name: "prisma", image: "/skills/prisma.png" },
     ],
-    sourceCode: "https://github.com/eyeganeshgupta/cinema-buff",
-    demo: "https://cinemabuff.netlify.app/",
+    sourceCode: "https://github.com/eyeganeshgupta/echo",
+    demo: "https://echo-next-app.vercel.app/",
   },
   {
     id: 2,
+    title: "Query Burst",
+    image: "/projects/query-burst.png",
+    description:
+      "An interactive hub where programming enthusiasts come together to seek assistance, exchange expertise, and engage in collaborative problem-solving. Dive into discussions spanning web development, mobile app creation, algorithms, data structures, and various other coding realms.",
+    skills: [
+      { id: 1, name: "typescript", image: "/skills/typescript.png" },
+      { id: 2, name: "react", image: "/skills/react.png" },
+      { id: 3, name: "next", image: "/skills/next-js.png" },
+      { id: 4, name: "tailwindcss", image: "/skills/tailwind.png" },
+      { id: 5, name: "shadcn", image: "/skills/shadcn-ui.png" },
+      { id: 6, name: "clerk", image: "/skills/clerk.png" },
+      { id: 7, name: "mongoDb", image: "/skills/mongodb.png" },
+    ],
+    sourceCode: "https://github.com/eyeganeshgupta/query-burst",
+    demo: "https://query-burst.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Closet Heaven - An E-commerce Cloth Selling Web Application",
     image: "/projects/closet-heaven.png",
     description:
@@ -39,44 +60,7 @@ const data = [
     demo: "https://closet-heaven.netlify.app/",
   },
   {
-    id: 3,
-    title: "Query Burst",
-    image: "/projects/query-burst.png",
-    description:
-      "An interactive hub where programming enthusiasts come together to seek assistance, exchange expertise, and engage in collaborative problem-solving. Dive into discussions spanning web development, mobile app creation, algorithms, data structures, and various other coding realms.",
-    skills: [
-      { id: 1, name: "typescript", image: "/skills/typescript.png" },
-      { id: 2, name: "react", image: "/skills/react.png" },
-      { id: 3, name: "next", image: "/skills/next-js.png" },
-      { id: 4, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 5, name: "shadcn", image: "/skills/shadcn-ui.png" },
-      { id: 6, name: "clerk", image: "/skills/clerk.png" },
-      { id: 7, name: "mongoDb", image: "/skills/mongodb.png" },
-    ],
-    sourceCode: "https://github.com/eyeganeshgupta/query-burst",
-    demo: "https://query-burst.vercel.app/",
-  },
-  {
     id: 4,
-    title: "Echo A Social Media App",
-    image: "/projects/echo.png",
-    description:
-      "Echo is a dynamic social media platform designed to connect users through concise and impactful messaging. Echo allows users to share thoughts, ideas, and updates in real-time, fostering a community where content is easily discoverable and widely accessible. With a focus on simplicity and user engagement, Echo is tailored to provide a seamless experience for both casual users and influencers alike.",
-    skills: [
-      { id: 1, name: "typescript", image: "/skills/typescript.png" },
-      { id: 2, name: "react", image: "/skills/react.png" },
-      { id: 3, name: "next", image: "/skills/next-js.png" },
-      { id: 4, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 5, name: "shadcn", image: "/skills/shadcn-ui.png" },
-      { id: 6, name: "lucia", image: "/skills/lucia.png" },
-      { id: 7, name: "postgresql", image: "/skills/postgresql.png" },
-      { id: 8, name: "prisma", image: "/skills/prisma.png" },
-    ],
-    sourceCode: "https://github.com/eyeganeshgupta/echo",
-    demo: "https://echo-next-app.vercel.app/login",
-  },
-  {
-    id: 5,
     title: "Continental Hotel",
     image: "/projects/continental-hotel.png",
     description:
@@ -94,6 +78,22 @@ const data = [
     ],
     sourceCode: "https://github.com/eyeganeshgupta/continental-hotel",
     demo: "https://continental-hotel-gupta.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "CinemaBuff",
+    image: "/projects/cinema-buff.png",
+    description:
+      "Cinema-Buff, An ultimate destination for everything related to the world of cinema!",
+    skills: [
+      { id: 1, name: "javascript", image: "/skills/javascript.png" },
+      { id: 2, name: "react", image: "/skills/react.png" },
+      { id: 3, name: "sass", image: "/skills/sass.png" },
+      { id: 4, name: "redux", image: "/skills/redux.png" },
+      { id: 5, name: "vite", image: "/skills/vite.png" },
+    ],
+    sourceCode: "https://github.com/eyeganeshgupta/cinema-buff",
+    demo: "https://cinemabuff.netlify.app/",
   },
 ];
 

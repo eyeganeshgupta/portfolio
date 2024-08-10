@@ -6,9 +6,9 @@ import "./globals.css";
 const inter = Nunito_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "eyeganeshgupta",
+  title: "About Ganesh",
   description:
-    "My name is Ganesh Gupta, a Full Stack JavaScript and Java Developer with a passion for creating dynamic web applications.",
+    "I'm Ganesh Gupta, a Full Stack JavaScript and Java Developer with a passion for creating dynamic web applications.",
 };
 
 export default function RootLayout({ children }) {

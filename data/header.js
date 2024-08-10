@@ -3,7 +3,7 @@ const data = {
   name: "Ganesh Gupta",
   title: "Full Stack JavaScript & Java Developer",
   address: "Mumbai, India",
-  education: "B.Sc.CS",
+  education: "Bachelor of Science in Computer Science",
 };
 
 export default data;
